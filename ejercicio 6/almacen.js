@@ -1,9 +1,9 @@
 class Almacen {
     #CantidadStock
-    constructor(codigoProducto, nombreProducto){
+    constructor(codigoProducto, nombreProducto,cantidadStock){
         this.codigoProducto  = codigoProducto;
         this.nombreProducto = nombreProducto;
-        this.#CantidadStock = [];
+        this.#CantidadStock = cantidadStock;
 
     }
 
@@ -11,7 +11,7 @@ class Almacen {
         if(Cantidad > 0){
             this.#CantidadStock += Cantidad;
             return `Se han agregado ${Cantidad} unidades de "${this.nombreProducto}" al inventario del almacen.`;
-    } else {return 'La cantidad a agregar debe ser mayor que cero.';}
+    } else {return 'La cantidad para agregar debe ser mayor que cero.';}
         }
 
     retirarProductos(Cantidad){
@@ -27,8 +27,8 @@ mostrarstock(){
 
  
 }
-let producto1 = new  Almacen('001', 'Tornillos');
-let producto2 = new Almacen('002', 'Clavos');
+let producto1 = new  Almacen('000', 'Tornillitoss');
+let producto2 = new Almacen('001', 'Clavitos');
 
 console.log(producto1.mostrarstock());  
 console.log(producto1.agregarProductos(50));  

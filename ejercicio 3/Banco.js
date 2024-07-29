@@ -1,3 +1,4 @@
+// ENCAPSULAMIENTO
 class Banco {
     #tipoCuenta
     constructor(nombreTitular, saldo, tipoCuenta){

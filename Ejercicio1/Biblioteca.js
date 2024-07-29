@@ -1,11 +1,11 @@
 // método de encapsulamiento
 class Biblioteca {
     _titulo;  
-    _artista; // público
-    #duracion; // privado
+    _artista; 
+    #duracion; 
     canciones;
   
-    constructor(titulo, artista, duracion) {
+    constructor(titulo, artista, duracion ) {
       this._titulo = titulo;
       this._artista = artista;
       this.#duracion = duracion;

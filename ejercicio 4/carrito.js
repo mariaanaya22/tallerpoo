@@ -1,3 +1,4 @@
+//encapsulamiento
 class carrito {
     #VelocidadMaxima 
     #combustibleActual
@@ -9,7 +10,7 @@ class carrito {
     }
     acelerar(){
         if (this.#combustibleActual > 0){
-            console.log("estamos bien");
+            console.log("estamos bien"); // SI EL COMBUSTIBLE ES MAYOR A 0 MUESTRA EL "estamos bien"
 
         }else {
             console.log("estamos mal de combustible");
@@ -19,7 +20,7 @@ class carrito {
         console.log("estamos frenando");
     }
     aumentarCombustible(combustible){
-        return `tanqueado completo de su tanques es ${this.#combustibleActual += combustible}`}
+        return `tanqueado completo de su tanques es ${this.#combustibleActual += combustible}`}  //hace una suma 
         
         #mostrarEstado(){
             console.log(`el vehiculo de marca ${this.marca} es modelo ${this.modelo} suvelocidad maxima es ${this.#VelocidadMaxima} su tanque esta en ${this.#combustibleActual} % `);

@@ -1,10 +1,10 @@
 class ReservaHotel {
     #habitacionAsignada; // Atributo privado
 
-    constructor(nombreCliente, fechaReserva) {
-        this.nombreCliente = nombreCliente; // Atributo público
-        this.fechaReserva = fechaReserva;   // Atributo público
-        this.#habitacionAsignada = "";      // Inicialmente, no hay habitación asignada
+    constructor(nombreCliente, fechaReserva, habitacionAsignada) {
+        this.nombreCliente = nombreCliente; 
+        this.fechaReserva = fechaReserva;   
+        this.#habitacionAsignada = habitacionAsignada;      
     }
 
     // Método para reservar una habitación
@@ -25,15 +25,16 @@ class ReservaHotel {
 
     // Método para cancelar la reserva
     cancelarReserva(habitacionesDisponibles) {
-        if (this.#habitacionAsignada === "") {
-            console.log("No tienes ninguna habitación asignada.");
+        if (this.#habitacionAsignada === "") // para saber si se tiene un valor asignado
+        {
+            console.log("No hay ninguna habitación asignada.");
             return;
         }
         
         // Devolver la habitación al listado de habitaciones disponibles
         habitacionesDisponibles.push(this.#habitacionAsignada);
         console.log(`Reserva cancelada. La habitación ${this.#habitacionAsignada} está disponible nuevamente.`);
-        this.#habitacionAsignada = ""; // Restablecer a estado sin asignar
+        this.#habitacionAsignada = [];
     }
 
     // Método para mostrar la reserva

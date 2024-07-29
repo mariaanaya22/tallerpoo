@@ -1,8 +1,9 @@
+ //encapsulamiento
 class Agenda{
     #contactos
-    constructor( nombreAgenda){
+    constructor( nombreAgenda, contactos){
      this.nombreAgenda = nombreAgenda;
-     this.#contactos = [];
+     this.#contactos = contactos;
     }
 
     agregarContacto(contacto){

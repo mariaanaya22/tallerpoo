@@ -8,7 +8,7 @@ class Empleado {
       this.#salario = salario; 
     }
   
-    // Método para calcular el sueldo neto
+    // Método para calcular el sueldo 
     calcularSueldoNeto() {
       //un 20% de deducción por impuestos
       const deduccion = this.#salario * 0.20;
@@ -18,7 +18,7 @@ class Empleado {
   
     // Método para mostrar los datos completos del empleado
     mostrarDatos() {
-      const sueldoNeto = this.calcularSueldoNeto(); // Obtener el sueldo neto
+      const sueldoNeto = this.calcularSueldoNeto(); // Obtener el sueldo 
       return `Nombre: ${this.nombre} ${this.apellido}\nCargo: ${this.cargo}\nSalario Neto: ${sueldoNeto.toFixed(2)}`;
     }
   }
