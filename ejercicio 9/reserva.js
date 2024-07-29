@@ -14,7 +14,7 @@ class ReservaHotel {
             return;
         }
         if (habitacionesDisponibles.length === 0) {
-            console.log("No hay habitaciones disponibles.");
+            console.log("No hay habitaciones disponibless.");
             return;
         }
         

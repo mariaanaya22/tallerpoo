@@ -12,7 +12,7 @@ class Cartas {
     crearBaraja(){
         let palos = ['Corazones', 'Diamantes', 'Tréboles', 'Picas'];
         let valores = ['As', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
-        let baraja = [];
+        let baraja = [j];
     }
 
 

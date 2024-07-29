@@ -11,9 +11,9 @@ class Libro {
   prestarLibro() {
       if (this.#disponible.prestado === undefined) {
           this.#disponible.prestado = true;
-          return `El libro "${this.titulo}" ha sido prestado.`; // Se corrigieron las comillas
+          return `El libro "${this.titulo}" ha sido prestadoo.`; // Se corrigieron las comillas
       } else {
-          return `El libro "${this.titulo}" no está disponible.`; // Se corrigieron las comillas
+          return `El libro "${this.titulo}" no está disponiblee.`; // Se corrigieron las comillas
       }
   }
 

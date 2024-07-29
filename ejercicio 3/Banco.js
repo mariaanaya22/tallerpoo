@@ -15,7 +15,7 @@ class Banco {
     if (this.saldo > 0){
         return this.saldo - monto 
     }else {
-    return "saldo insuficiente"
+    return "saldo insuficientee"
  }}
 
  mostrarSaldo(){

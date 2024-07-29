@@ -25,9 +25,9 @@ class Biblioteca {
       let indice = this.canciones.findIndex(cancion => cancion.titulo.toLowerCase() === titulo.toLowerCase()); //busca la cancion
       if (indice !== -1) {  // busca su indice y si es negativo lanzara un mensaje de que no se encontro en la biblioteca 
         this.canciones.splice(indice, 1);
-        console.log(`Canción "${titulo}" eliminada correctamente.`);
+        console.log(`Canción "${titulo}" eliminada correctamentee.`);
       } else {
-        console.log(`La canción "${titulo}" no se encontró en la biblioteca.`);
+        console.log(`La canción "${titulo}" no se encontró en la bibliotecaa.`);
       }
     }
   

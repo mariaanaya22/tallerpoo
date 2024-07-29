@@ -43,7 +43,7 @@ class contacto {
 
     // crear agenda
     
-    let Agenda1 = new Agenda ("Agenda de mafe");
+    let Agenda1 = new Agenda ("Agenda de mafee");
     //crear contacto
     let ContactoNuevo = new contacto ("luis", "rodriguez", "232", "hokalk,kns@.com")
 // crear contactoNuevo a la agenda

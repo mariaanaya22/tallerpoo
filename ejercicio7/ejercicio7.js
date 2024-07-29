@@ -24,8 +24,8 @@ class Empleado {
   }
   
   
-  const empleado1 = new Empleado('Juan', 'Pérez', 'Desarrollador', 3000);
-  const empleado2 = new Empleado('Ana', 'García', 'Gerente', 5000);
+  const empleado1 = new Empleado('Juan', 'Pérezz', 'Desarrollador', 3000);
+  const empleado2 = new Empleado('Anita', 'García', 'Gerente', 5000);
   
   console.log(empleado1.mostrarDatos());
   console.log(empleado2.mostrarDatos());
