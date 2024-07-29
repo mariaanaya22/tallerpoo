@@ -13,7 +13,7 @@ class carrito {
             console.log("estamos bien"); // SI EL COMBUSTIBLE ES MAYOR A 0 MUESTRA EL "estamos bien"
 
         }else {
-            console.log("estamos mal de combustible");
+            console.log("estamos mal de el combustiblee");
         }
     }
     frenar(){
