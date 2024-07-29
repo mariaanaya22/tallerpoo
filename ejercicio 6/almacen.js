@@ -10,7 +10,7 @@ class Almacen {
     agregarProductos(Cantidad){
         if(Cantidad > 0){
             this.#CantidadStock += Cantidad;
-            return `Se han agregado ${Cantidad} unidades de "${this.nombreProducto}" al inventario del almacen.`;
+            return `Se han agregado ${Cantidad} unidades de "${this.nombreProducto}" al inventario del almacenN.`;
     } else {return 'La cantidad para agregar debe ser mayor que cero.';}
         }
 
