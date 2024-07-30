@@ -1,3 +1,4 @@
+//encapsulaiemto
 class ReservaHotel {
     #habitacionAsignada; // Atributo privado
 

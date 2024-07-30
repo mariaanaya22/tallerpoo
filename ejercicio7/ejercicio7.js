@@ -1,3 +1,4 @@
+//encapsulamiento
 class Empleado {
     #salario; 
   

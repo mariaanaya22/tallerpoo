@@ -1,3 +1,4 @@
+//encapsulamiento
 class Almacen {
     #CantidadStock
     constructor(codigoProducto, nombreProducto,cantidadStock){
